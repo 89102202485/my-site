@@ -1,0 +1,49 @@
+body {
+    height: 200px;
+    background: linear-gradient(45deg, #d1d0faf7, #ffd9e6);
+    }
+.d1 h3 {
+        display: table;
+        width: auto;
+        margin: 0 auto;
+        padding: 15px;
+        letter-spacing: 2px;
+        background: #8cc2ee;
+        border: 2px dashed white;
+        color: white;
+        box-shadow: 0 0 0 4px #cbdcea;
+    }
+    .test1 {
+        text-indent : 40px; 
+        text-align: justify;
+        margin: 30px;   
+        line-height: 200%;  
+        font-family:  Courier New; 
+        font-weight: 500;
+    }  
+    table {
+        text-align: center;
+        margin: auto; 
+        width: 50%;
+        border-collapse: collapse; 
+      }
+      td, th {
+        border: 3px solid #C2C2FF;
+        padding: 3px 7px 2px 7px; 
+      }
+      th {
+        text-align: center;
+        padding: 5px;
+        background-color: #9999FF;
+        color: #fff; 
+      }
+      .glav {
+        margin-left: 40%;
+        display: inline-block;
+        background: rgb(152, 72, 152);
+        color: white;
+        padding: 12px;
+        text-decoration: none;
+        border-radius:20px;
+        font-size: large;
+     }

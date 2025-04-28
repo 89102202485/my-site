@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charest="UTF-8">
+    <title>Задания</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #8B00FF;
+      }
+      
+      .topnav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 45px 100px;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      
+      .topnav a:hover {
+        background-color: #CC99FE;
+        color: white;
+      }
+      
+      .topnav a.active {
+        background-color: #8B00FF;
+        color: white;
+      }
+      </style>
+        <div class="topnav">
+          <a class="active" href="file:///C:/Users/podop/OneDrive/Рабочий%20стол/Сайт/Итоговый%20сайт.html">Главная страница</a>
+          <a href="movie.html">Видео</a>
+          <a href="ex.html">Задания</a>
+          <a href="theory.html">Учебный материал</a>
+          <br>
+          <br>
+         <div><strong><font face=Courier color=white size=5 size=5><center>Английский - легко и просто!</center></font></strong></b></div>
+        </div>
+        <br><br>
+        <head>
+            <link rel="stylesheet"
+            href="ex.css"
+        </head>
+        <div class="d1"><h3>Практическая часть</h3></div><br><br>
+        <div class="d2"><h3>Упражнения по английской грамматике</h3></div><br>
+        <div class="d3"><h3>Глагол</h3></div>
+        <ul class="test1">
+          <li><a href= "#noun to be">Глагол to be</a></li>
+          <li>Глагол to have</li>
+          <li>Can или Could</li>
+          <li>May или Might</li>
+        </ul>
+
+        <div class="d3"><h3>Упражнения на времена глагола и условные предложения</h3></div> 
+        <ul class="test1">
+          <li>Упражнения на Present Simple</a></li>
+          <li>Упражнения на Past Simple</li>
+          <li>Упражнения на Future Simple</li>
+        </ul>
+
+        <div class="d2"><h3 id="noun to be">Глагол to be - упражнения для настоящего врмени</a></h3></div><br>
+        <p class = "test1">Пройдите упражнения 1, чтобы повторить употребление глагола to be в настоящем времени в утвердительной, 
+          отрицательной и вопросительной формах.</p>
+          <div class="d2"><h3 id="noun to be">Упражнение 1: Глагол to be в настоящем времени</a></h3></div><br>
+          <p class = "test1">В этом упражнении нужно использовать глагол to be в утвердительной и отрицательной форме в настоящем времени.</p>
+         
+          <p><strong>Использйте глагол to be в нужной форме:</strong></p>
+          <p>1. He <input type="text" id="z_1"> a good person. - Он хороший человек.</p>
+          <p>2. We <input type="text" id="z_2"> not ready. - Мы не готовы.</p>
+          <p>3. I <input type="text" id="z_3"> a doctor. - Я - доктор.</p>
+          <p>4. Mary <input type="text" id="z_4"> sad. - Мэри гурстная.</p>
+          <p>5. You <input type="text" id="z_5"> so beautiful. - Вы так красивы.</p>
+          <p>6. Mary and Jace <input type="text" id="z_6"> married. - Мэри и Джек женаты.</p>
+          <p>7. The puppy <input type="text" id="z_7"> not dangerous. - Щенок не опасен.</p>
+          <p>8. Two girls <input type="text" id="z_8"> absent. - Две девушки отсутствуют.</p>
+          <p>9. I <input type="text" id="z_9"> not busy. - Я не занят.</p>
+          <button onclick="proverit();"><strong>Проверить</strong></button>
+          <div id="rezultat"></div>
+          <script>
+          function proverit(){
+            pr_otv_zadachi_1 = "is";
+            pr_otv_zadachi_2 = "are";
+            pr_otv_zadachi_3 = "am";
+            pr_otv_zadachi_4 = "is";
+            pr_otv_zadachi_5 = "are";
+            pr_otv_zadachi_6 = "are";
+            pr_otv_zadachi_7 = "is";
+            pr_otv_zadachi_8 = "are";
+            pr_otv_zadachi_9 = "am";
+            otv_uch_1 = document.getElementById('z_1').value;
+            otv_uch_2 = document.getElementById('z_2').value;
+            otv_uch_3 = document.getElementById('z_3').value;
+            otv_uch_4 = document.getElementById('z_4').value;
+            otv_uch_5 = document.getElementById('z_5').value;
+            otv_uch_6 = document.getElementById('z_6').value;
+            otv_uch_7 = document.getElementById('z_7').value;
+            otv_uch_8 = document.getElementById('z_8').value;
+            otv_uch_9 = document.getElementById('z_9').value;
+            ball = 0;
+            if(otv_uch_1 == pr_otv_zadachi_1){
+              ball +=1;
+            }
+            if(otv_uch_2 == pr_otv_zadachi_2){
+              ball +=1;
+            }
+            if(otv_uch_3 == pr_otv_zadachi_3){
+              ball +=1;
+            }
+            if(otv_uch_4 == pr_otv_zadachi_4){
+              ball +=1;
+            }
+            if(otv_uch_5 == pr_otv_zadachi_5){
+              ball +=1;
+            }
+            if(otv_uch_6 == pr_otv_zadachi_6){
+              ball +=1;
+            }
+            if(otv_uch_7 == pr_otv_zadachi_7){
+              ball +=1;
+            }
+            if(otv_uch_8 == pr_otv_zadachi_8){
+              ball +=1;
+            }
+            if(otv_uch_9 == pr_otv_zadachi_9){
+              ball +=1;
+            }
+            vsego_zadach = 9;
+            procent_vip = ball/vsego_zadach * 100;
+            document.getElementById("rezultat").innerHTML = "Задания выполнены верно на "+procent_vip+"%.";
+          }
+          </script><br><br><br>
+           
+                  
+            <input type="checkbox" id="raz" class="del"/>
+            <label for="raz" class="del">Ответы</label>
+            <div class="ex1">1. He<strong> is </strong>a good person. – Он хороший человек. <br> 
+            2. We <strong> are </strong> not ready. – Мы не готовы.<br>
+            3. I <strong> am </strong> a doctor. – Я – доктор.<br>
+            4. Mary <strong> is </strong>sad. – Мэри грустна.<br>
+            5. You <strong>  are  </strong> so beautiful. — Вы так красивы.<br>
+            6. Mary and Jack <strong> are </strong> married. – Мэри и Джек женаты.<br>
+            7. The puppy <strong>  is  </strong> not dangerous. – Щенок не опасен.<br>
+            8. Two girls <strong>  are  </strong> absent. – Две девушки отсутствуют.<br>
+            9. I <strong>  am  </strong> not busy. – Я не занят.</div>
+ 
+
+
+
+
+            
